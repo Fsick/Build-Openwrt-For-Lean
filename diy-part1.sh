@@ -21,3 +21,6 @@ git clone https://github.com/fw876/helloworld.git
 
 # Add MJ package
 git clone https://github.com/Fsick/openwrt-packages.git
+
+# Add Lienol package
+git clone https://github.com/Lienol/openwrt-package.git
