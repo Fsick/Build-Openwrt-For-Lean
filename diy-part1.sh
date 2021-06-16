@@ -13,8 +13,12 @@
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# Add lienol package feed source
+sed -i '$a src-git Lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Add MJ package feed source
 sed -i '$a src-git Fsick https://github.com/Fsick/openwrt-packages.git' feeds.conf.default
+
+# Add OpenWrt-Actions package feed source
+sed -i '$a src-git OpenWrt-Actions https://github.com/OpenWrt-Actions/helloworld.git' feeds.conf.default
+
